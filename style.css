@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family:Arial, Helvetica, sans-serif;
+    background:linear-gradient(90deg, rgb(24, 153, 227) 20%, rgb(59, 154, 227), rgb(38, 41, 190) 50%);
+    
+   
+}
+header{
+    background-attachment: fixed;
+    color: rgb(14, 14, 15);
+    text-align: center;
+    padding: 50px;
+
+}
+head h1{
+    margin-bottom: 10px;
+}
+.produtos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; /*center - flex - ou end*/
+        gap:50px;/*espaçamento entre os cards*/
+        padding: 50px;
+        max-width: 1300px;
+        margin: auto;/*centralizar*/
+}
+.card{
+    width: 300px;
+    background-color: rgb(25, 139, 239);
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 20px;
+}
+.card img{
+     width: 100%px;
+     height: 50px;
+     object-fit: cover;
+
+
+}
+.card {
+    background-color: rgb(92, 167, 233);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+    /* ADICIONE ESSAS DUAS LINHAS: */
+    text-align: center;
+    align-items: center; 
+}
+.card:hover{
+    transform: translateY(-5px);
+}
+.card h2{
+    color: rgb(14, 14, 15);
+    text-align: center;
+    padding: 15px;
+}
+.card p{
+    padding: 0 15px 15px;
+    color: rgb(10, 10, 205);
+}
+.card button{
+    width: 270px;
+    margin-left: 15px;
+    padding: 10px;
+    background-color: rgb(60, 15, 243);
+    color: rgb(221, 255, 238);
+    border:none;
+    border-radius: 8px;
+
+    footer{
+        background-color: blue;
+        color: aliceblue;
+        text-align: center;
+        padding: 20px;
+    }
+    
+}
